@@ -1,0 +1,115 @@
+
+
+.calc-row {
+    height: 100vh;
+    font-family: 'Share Tech Mono', monospace;
+}
+
+.input-window {
+    text-align: end;
+    font-size: x-large;
+}
+
+.card-body {
+  display: grid;
+  height: 52vh;
+}
+
+.input-window {
+    grid-row: 1;
+    grid-column: 1 / 5;
+
+}
+
+.btn_clr {
+    grid-row: 2;
+    grid-column: 1 / 5;
+}
+
+.btn_1 {
+    grid-row: 3;
+    grid-column: 1;
+}
+
+.btn_2 {
+    grid-row: 3;
+    grid-column: 2;
+}
+
+.btn_3 {
+    grid-row: 3;
+    grid-column: 3;
+}
+
+.btn_sum {
+    grid-row: 3;
+    grid-column: 4;
+}
+
+.btn_4 {
+    grid-row: 4;
+    grid-column: 1;
+}
+
+.btn_5 {
+    grid-row: 4;
+    grid-column: 2;
+}
+
+.btn_6 {
+    grid-row: 4;
+    grid-column: 3;
+}
+
+.btn_sub {
+    grid-row: 4;
+    grid-column: 4;
+}
+
+.btn_7 {
+    grid-row: 5;
+    grid-column: 1;
+}
+
+.btn_8 {
+    grid-row: 5;
+    grid-column: 2;
+}
+
+.btn_9 {
+    grid-row: 5;
+    grid-column: 3;
+}
+
+.btn_mul {
+    grid-row: 5;
+    grid-column: 4;
+}
+
+.btn_equ {
+    grid-row: 7;
+    grid-column: 1 / 5;
+}
+
+.btn_0 {
+    grid-row: 6;
+    grid-column: 2;
+}
+
+.btn_rad {
+    grid-row: 6;
+    grid-column: 3;
+}
+
+.btn_div {
+    grid-row: 6;
+    grid-column: 4;
+}
+
+.btn_dot {
+    grid-row: 6;
+    grid-column: 1;
+}
+
+
+

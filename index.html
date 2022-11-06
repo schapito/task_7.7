@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Калькулятор</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+          integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css" type="text/css"/>
+</head>
+<body>
+<div class="container">
+    <div class="row calc-row align-items-center">
+        <div class="col col-md-4 offset-md-4">
+            <div class="form-group">
+                <div class="card" id="calc">
+                    <div class="card-body">
+                        <input class="form-control input-window" id="inputWindow" value="">
+                        <div class="row no-gutters btn_clr"> <!--Кнопка С-->
+                            <div class="col">
+                                <button class="btn btn-outline-danger form-control" id="btn_clr">C</button>
+                            </div>
+                        </div> <!--Конец кнопки С-->
+                        <div class="row no-gutters btn_1"><!--Кнопка 1-->
+                            <div class="col">
+                                <button class="btn btn-outline-primary form-control" id="btn_1">1</button>
+                            </div>
+                        </div><!--Кнопка 1-->
+                        <div class="row no-gutters btn_2"> <!--Кнопка 2-->
+                            <div class="col">
+                                <button class="btn btn-outline-primary form-control" id="btn_2">2</button>
+                            </div>
+                        </div> <!--Конец кнопки 2-->
+                        <div class="row no-gutters btn_3"> <!--Кнопка 3-->
+                            <div class="col">
+                                <button class="btn btn-outline-primary form-control" id="btn_3">3</button>
+                            </div>
+                        </div> <!--Конец кнопки 3-->
+                        <div class="row no-gutters btn_sum"> <!--Кнопка sum-->
+                            <div class="col">
+                                <button class="btn btn-outline-primary form-control" id="btn_sum">+</button>
+                            </div>
+                        </div> <!--Конец кнопки +-->
+                        <div class="row no-gutters btn_4"> <!--Кнопка 4-->
+                            <div class="col">
+                                <button class="btn btn-outline-primary form-control" id="btn_4">4</button>
+                            </div>
+                        </div> <!--Конец кнопки 4-->
+                        <div class="row no-gutters btn_5"> <!--Кнопка 5-->
+                            <div class="col">
+                                <button class="btn btn-outline-primary form-control" id="btn_5">5</button>
+                            </div>
+                        </div> <!--Конец кнопки 5-->
+                        <div class="row no-gutters btn_6"> <!--Кнопка 6-->
+                            <div class="col">
+                                <button class="btn btn-outline-primary form-control" id="btn_6">6</button>
+                            </div>
+                        </div> <!--Конец кнопки 6-->
+                        <div class="row no-gutters btn_sub"> <!--Кнопка sub-->
+                            <div class="col">
+                                <button class="btn btn-outline-primary form-control" id="btn_sub">-</button>
+                            </div>
+                        </div> <!--Конец кнопки - -->
+                        <div class="row no-gutters btn_7"> <!--Кнопка 7-->
+                            <div class="col">
+                                <button class="btn btn-outline-primary form-control" id="btn_7">7</button>
+                            </div>
+                        </div> <!--Конец кнопки 7-->
+                        <div class="row no-gutters btn_8"> <!--Кнопка 8-->
+                            <div class="col">
+                                <button class="btn btn-outline-primary form-control" id="btn_8">8</button>
+                            </div>
+                        </div> <!--Конец кнопки 8-->
+                        <div class="row no-gutters btn_9"> <!--Кнопка 9-->
+                            <div class="col">
+                                <button class="btn btn-outline-primary form-control" id="btn_9">9</button>
+                            </div>
+                        </div> <!--Конец кнопки 9-->
+                        <div class="row no-gutters btn_mul"> <!--Кнопка mul-->
+                            <div class="col">
+                                <button class="btn btn-outline-primary form-control" id="btn_mul">*</button>
+                            </div>
+                        </div> <!--Конец кнопки mul-->
+                        <div class="row no-gutters btn_dot"> <!--Кнопка dot-->
+                            <div class="col">
+                                <button class="btn btn-outline-primary form-control" id="btn_dot">.</button>
+                            </div>
+                        </div> <!--Конец кнопки dot-->
+                        <div class="row no-gutters btn_0"> <!--Кнопка 0-->
+                            <div class="col">
+                                <button class="btn btn-outline-primary form-control" id="btn_0">0</button>
+                            </div>
+                        </div> <!--Конец кнопки 0-->
+                        <div class="row no-gutters btn_rad"> <!--Кнопка rad-->
+                            <div class="col">
+                                <button class="btn btn-outline-primary form-control" id="btn_rad">&#8730</button>
+                            </div>
+                        </div> <!--Конец кнопки rad-->
+                        <div class="row no-gutters btn_div"> <!--Кнопка div-->
+                            <div class="col">
+                                <button class="btn btn-outline-primary form-control" id="btn_div">/</button>
+                            </div>
+                        </div> <!--Конец кнопки div-->
+                        <div class="row no-gutters btn_equ"> <!--Кнопка equ-->
+                            <div class="col">
+                                <button class="btn btn-outline-primary form-control" id="btn_equ">=</button>
+                            </div>
+                        </div> <!--Конец кнопки equ-->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
